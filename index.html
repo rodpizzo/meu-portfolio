@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Rodolfo Pizzo</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#about">Experiência</a></li>
+          <li><a href="#Projetos">Projetos</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hb-nav">
+      <div class="logo">Rodolfo Pizzo</div>
+      <div class="hb-menu">
+        <div class="hb-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+          <li><a href="#about" onclick="toggleMenu()">Experiência</a></li>
+          <li><a href="#Projetos" onclick="toggleMenu()">Projetos</a></li>
+          <li><a href="#footer" onclick="toggleMenu()">Contato</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic">
+        <img src="./assets/pic1.jpeg" class="imagem" alt="rodolfo pizzo" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Olá, eu sou o</p>
+        <h1 class="title">Rodolfo Pizzo</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="">Download CV</button>
+          <button class="btn btn-color-1" onclick="">Contato</button>
+          <img src="./assets/github.png" class="icon1" alt="" />
+          <img src="./assets/linkedin.png" class="icon2" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="experiencia">
+        <div class="box-exp">
+          <h3>Experiência</h3>
+          <img src="./assets/experience.png" class="experience" alt="" />
+        </div>
+        <div class="icon-master1">
+          <div class="icon-left">
+            <h4>Design:</h4>
+            <br />
+            <div class="photo-icon">
+              <img src="./assets/photoshop.png" class="photo" alt="" />
+              <p>Photoshop</p>
+            </div>
+            <br />
+            <div class="photo-icon">
+              <img src="./assets/adobe-illustrator.png" class="photo" alt="" />
+              <p>Illustrator</p>
+            </div>
+            <br />
+            <div class="photo-icon">
+              <img src="./assets/figma.png" class="photo" alt="" />
+              <p>Figma</p>
+            </div>
+            <br />
+            <div class="photo-icon">
+              <img src="./assets/xd.png" class="photo" alt="" />
+              <p>Adobe Xd</p>
+            </div>
+          </div>
+          <div class="icon-right">
+            <h4>Coding:</h4>
+            <br />
+            <div class="photo-icon">
+              <img src="./assets/html-5.png" class="photo" alt="" />
+              <p>HTML</p>
+            </div>
+            <br />
+            <div class="photo-icon">
+              <img src="./assets/css-3.png" class="photo" alt="" />
+              <p>CSS</p>
+            </div>
+            <br />
+            <div class="photo-icon">
+              <img src="./assets/javas.png" class="photo" alt="" />
+              <p>JavaScript</p>
+            </div>
+            <br />
+            <div class="photo-icon">
+              <img src="./assets/mysql.png" class="photo" alt="" />
+              <p>MySQL</p>
+            </div>
+            <br />
+            <div class="photo-icon">
+              <img src="./assets/python.png" class="photo" alt="" />
+              <p>Python</p>
+            </div>
+            <br />
+            <div class="photo-icon">
+              <img src="./assets/php.png" class="photo" alt="" />
+              <p>PHP</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="estudo">
+        <div class="box-ed">
+          <h3>Estudo</h3>
+          <img src="./assets/education.png" class="education" alt="" />
+        </div>
+
+        <p>
+          • Graduado em Design Gráfico - Barão de Máua<br /><br />
+          • Cursando Ciência da Computação - Estácio<br /><br />
+          • Cursando Ciência de Dados - Uninter (bolsa de 100% mérito
+          estudantil)
+        </p>
+        <br />
+        <div class="cursos">
+          <h3>Cursos & Certificados</h3>
+          <br />
+          <img src="./assets/checkmark.png" class="curso" alt="" />
+        </div>
+        <br />
+        <p>• C1 Advanced English Certificate - EF</p>
+        <br />
+        <p>• Habilidades Interpessoais para o Trabalho - Linkedin</p>
+        <br />
+        <p>• MySQL - Curso em Vídeo</p>
+        <br />
+        <p>• HTML e CSS - Alura</p>
+        <br />
+      </div>
+    </section>
+    <div class="box">
+      <h3>Mais Sobre mim</h3>
+      <br />
+      • Experiente em design gráfico utilizando Adobe Photoshop, Illustrator
+      e/ou Adobe XD para diversas plataformas, incluindo impressão, mídias
+      sociais e web, com foco em UI/UX e identidade visual.<br /><br />
+      •Conhecimento sólido em princípios de design, incluindo composição,
+      tipografia e cores, com habilidades em criação de wireframes, protótipos e
+      design responsivo para diferentes dispositivos.<br /><br />
+      •Conhecimento em linguagens de programação como HTML, CSS, JavaScript,
+      Python e PHP, com experiência em front-end web, Bootstrap, integração de
+      APIs e capacidade de criar websites responsivos e interativos, com noções
+      básicas de Banco de Dados, como MySQL.<br /><br />
+    </div>
+
+    <section id="Projetos">
+      <div class="interface">
+        <h1>Projetos</h1>
+        <div class="flex">
+          <div class="imgPort">
+            <a
+              href="https://github.com/rodpizzo/PHP-Crud-MySql"
+              target="_blank"
+            >
+              <img src="./assets/proj1.png" alt="" />
+              <p>CRUD PHP MySQL</p>
+            </a>
+          </div>
+          <div class="imgPort">
+            <a
+              href="https://github.com/rodpizzo/Login-Page-php"
+              target="_blank"
+            >
+              <img src="./assets/proj2.png" class="loginPage" alt="" />
+              <p>Login PHP e MySQL</p>
+            </a>
+          </div>
+          <div class="imgPort">
+            <a
+              href="https://github.com/rodpizzo/File-manipulation-system"
+              target="_blank"
+            >
+              <img src="./assets/proj3.png" alt="" />
+              <p>CRUD em Python</p>
+            </a>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="flex">
+          <div class="imgPort">
+            <a
+              href="https://github.com/rodpizzo/React-Products"
+              target="_blank"
+            >
+              <img src="./assets/proj4.png" alt="" />
+              <p>App em React Native e MySQL</p>
+            </a>
+          </div>
+          <div class="imgPort">
+            <a
+              href="https://github.com/rodpizzo/Filtro-de-Elementos-Js"
+              target="_blank"
+            >
+              <img src="./assets/proj5.png" alt="" />
+              <p>Filtro de Elementos em JavaScript</p>
+            </a>
+          </div>
+          <div class="imgPort">
+            <a href="#about">
+              <img src="./assets/proj6.png" class="loginPage" alt="" />
+              <p>Portfolio em HTML e CSS</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seu conteúdo principal aqui -->
+
+    <footer id="footer">
+      <h3>Contato</h3>
+      <div class="contact-info">
+        <p>Telefone: (16)9.9229-2476</p>
+        <p>Email: rodolfopizzo@gmail.com</p>
+        <p>Cidade: Sertãozinho-SP</p>
+      </div>
+      <p>&copy; 2023 Rodolfo Pizzo. Todos os direitos reservados.</p>
+    </footer>
+
+    <section id="sobre"></section>
+    <script src="script.js"></script>
+  </body>
+</html>

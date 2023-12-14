@@ -1,0 +1,147 @@
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hb-nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  nav {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  body {
+    width: 100%;
+    overflow-x: hidden; /* Para evitar barras de rolagem horizontais */
+  }
+
+  .hb-menu {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .menu-links {
+    position: static;
+    display: none;
+    width: 100%;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+
+  .menu-links.open {
+    display: block;
+    max-height: initial;
+  }
+  #hb-nav .hb-icon.open span:first-child {
+    transform: rotate(45deg) translate(5px, 8px);
+  }
+  #hb-nav .hb-icon.open span:nth-child(2) {
+    opacity: 0;
+  }
+  #hb-nav .hb-icon.open span:last-child {
+    transform: rotate(-45deg) translate(3px, -8px);
+  }
+
+  .hb-icon span {
+    height: 3px;
+    margin-bottom: 5px;
+  }
+
+  /* Ajustes no perfil */
+  #profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .section__text {
+    font-size: 1.8rem;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  /* Ajustes nas seções de experiência e estudo */
+  .experiencia,
+  .estudo {
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  .box {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  /* Ajustes nos projetos */
+  #Projetos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .imgPort {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Ajustes no rodapé */
+  footer .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experiencia,
+  .estudo {
+    width: 70%; /* Ajuste a largura conforme necessário */
+    margin: 2rem 0;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .icon-master1 {
+    display: flex;
+    gap: 1rem;
+  }
+  .box {
+    width: 70%;
+  }
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imgPort {
+    width: 360px; /* ou ajuste para o tamanho desejado */
+    height: 460px;
+    margin-bottom: 20px;
+    display: block; /* Altera o display para block para empilhar os projetos */
+    background-color: black; /* Adiciona fundo preto */
+  }
+}
